@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #313131;
+}
+.section{
+  width: 800px;
+  height: 400px;
+  margin: 100px auto;
+  background: url(img1.jpg);
+  background-repeat: no-repeat;
+  animation: slide 20s infinite;
+}
+@keyframes slide{
+
+25%{
+  background: url(img1.jpg);
+  background-repeat: no-repeat;
+}
+50%{
+  background: url(img2.jpg);
+  background-repeat: no-repeat;
+}
+75%{
+  background: url(img3.jpg);
+  background-repeat: no-repeat;
+}
+100%{
+  background: url(img4.jpg);
+  background-repeat: no-repeat;
+}
+
+}
